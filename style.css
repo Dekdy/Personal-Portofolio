@@ -1,0 +1,244 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;;
+}
+
+.title, .desc{
+    color: white ;
+}
+
+.profil{
+    padding-top: 100px;
+    background-color: black;
+    width: 250px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: -100px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.profil h1{
+    padding-top: 20px;
+    font-size: 25px;
+}
+
+.profil p{
+    font-size: 10px;
+}
+
+.about{
+    background-color: rgb(10, 10, 10);
+    padding-top: 70px;
+    min-height: 600px;
+}
+
+.about h1, h5{
+    color: white;
+}
+
+.about h5{
+    text-align: justify;
+}
+
+hr{
+    color: goldenrod !important;
+    width: 100px;
+    padding: 2px;
+    margin: 0 auto;
+    opacity: 1 !important;
+}
+ 
+.navbar{
+    background-color: black;
+}
+
+.navbar a{
+    margin-right: 15px;
+    text-transform: uppercase;
+}
+
+
+.jumbotron img{
+    position: relative;
+    margin-top: 60px;
+    width: 150px;
+    border-radius: 100%;
+    border: 5px solid goldenrod;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    outline: 35px solid rgb(17, 14, 14);
+    z-index: 1;
+
+}
+
+.jumbotron{
+    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.8)), url("img/tech-wallpaper-hd.jpg");
+    background-position: center;
+    padding-top: 100px;
+
+}
+
+.personal{
+    color: white;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.personal1{
+    text-align: left;
+    color: goldenrod;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.personal2{
+    text-align: left;
+    color: white;
+    font-size: 14px;
+}
+
+.interest h4{
+    color: white;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.kotak span{
+    color: white;
+    font-size: 20px;
+}
+
+.kotak p{
+    color: white;
+    font-size: 15px;
+    padding-top: 5px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.kotak{
+    background-color: #141313;
+    border-radius: 20px;
+    padding: 12px;
+    margin-top: 10px;
+    transition:0.8s;
+}
+
+.kotak:hover{
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transform: translate(-2px,-2px);
+}
+
+strong{
+    color: goldenrod;
+}
+
+.skills{
+    background-color: black;
+    padding-top: 70px;
+    min-height: 600px;
+}
+
+.skills h1{
+    color: white;
+}
+
+.card1{
+    background-color: rgb(20, 20, 20);
+    padding: 20px;
+    margin-top: 30px;
+    transition: 0.8s;
+}
+
+.card1:hover{
+    cursor: pointer;
+    transform: translate(-2px,-2px);
+}
+
+.progress-bar{
+    border-radius: 20px;
+    font-size: 10px;
+    background-color: goldenrod !important;
+}
+
+.progress{
+    background-color: rgb(36, 36, 36);
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+.text{
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-bottom: 0!important;
+}
+
+
+
+.portofolio{
+    background-color: rgb(10, 10, 10);
+    padding-top: 70px;
+    min-height: 600px;
+}
+
+.portofolio h1{
+    color: white;
+}
+
+.contact{
+    background-color: black;
+    padding-top: 70px;
+    min-height: 600px;
+}
+
+.contact h1{
+    color: white;
+    text-align: center;
+}
+
+.form-group{
+    margin-top: 20px;
+}
+
+label{
+    color: goldenrod;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.footer{
+    background-color: black;
+}
+
+.footer h2{
+    color: goldenrod;
+    font-size: 1.25rem;
+}
+
+.footer span, p{
+    color: goldenrod;
+}
+
+.footer span{
+    font-size: 25px;
+}
+
+.footer p{
+    font-size: 10px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .kotak{
+      display: none;
+    }
+
+    .interest{
+        display: none;
+    }
+  }
+  
